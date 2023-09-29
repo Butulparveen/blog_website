@@ -22,6 +22,7 @@
     align-items: self-start;
     justify-content: end;
     padding-bottom: 20px;
+    margin: 0;
 }
 
 .footerIcons{
@@ -29,6 +30,7 @@
     margin-top: 10px;
     color:white;
     cursor: pointer;
+    margin-left: 280px;
 }
 
 .footerTitle{
@@ -37,6 +39,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-size: 18px;
+    margin-right: 270px;
     cursor:pointer;
 }
 .footerTitlegmail{

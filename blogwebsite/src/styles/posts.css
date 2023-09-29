@@ -3,3 +3,8 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.postsTitle{
+    margin-left: 440px;
+    color: brown;
+}

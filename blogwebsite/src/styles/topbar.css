@@ -10,6 +10,13 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.topbarLinDesc{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+
+}
 .topLeft,.topRight{
     display: flex;
     flex:6;

@@ -2,8 +2,7 @@ import React from 'react';
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import{Link} from 'react-router-dom';
 import "../styles/sidebar.css";
-
-
+import Footer from "../components/footer.js"
 function Sidebar() {
   return (
     <div className='sidebar'>
@@ -35,7 +34,7 @@ function Sidebar() {
             <FaTwitter/>
             <FaPinterest/>
         </div>
-      
+        {/* <Footer/> */}
     </div>
   )
 }

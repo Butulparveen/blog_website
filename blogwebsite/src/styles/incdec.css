@@ -1,0 +1,30 @@
+.button{
+
+    margin-top: 15%;
+    cursor: pointer;
+    background-color:rgb(180, 84, 108);
+    color: azure;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 24%;
+    justify-content: space-between;
+    margin-left: 20%;
+    
+
+}
+.button:hover{
+    background-color: chocolate;
+}
+
+.count{
+    font-size: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+    
+}

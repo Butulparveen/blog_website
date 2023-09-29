@@ -1,0 +1,133 @@
+/* .loginform{
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+} */
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://www.westend61.de/images/0001269310pw/woman-using-laptop-JOHF03279.jpg");
+    background-size: cover;
+  }
+/* .loginImg{
+    /* display: flex;
+    flex-direction: column; */
+    /* width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+/* } */
+/* .logincard{
+    display: flex;
+    flex: content;
+    margin:20px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(145, 181, 211);
+    
+}
+
+.loginfields{
+    margin-right: 55%;
+    background-color: rgb(59, 156, 116);
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    width: 35%;
+
+} */
+
+.loginTitle{
+    display: flex;
+    margin-left: 30%;
+    padding: 5px;
+    width: 40%;
+    border: solid 2px black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    color: rgb(22, 20, 6);
+    justify-content: center;
+    background-color: rgb(24, 114, 156);
+    
+}
+
+.loginForm{
+    margin: 10px;
+}
+.login>label{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(19, 11, 11);
+    background-color: rgb(99, 161, 212);
+    /* padding-right: 58px; */
+    padding: 15px;
+    margin: 10px;
+    justify-content: center;  
+    text-align: center;
+}
+
+.loginInput{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    width: 86%;
+
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 11, 11);
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(8, 193, 240);
+    padding: 10px;
+    /* width: 40%;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 30%; */ 
+}
+
+
+.loginRegister{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+
+
+

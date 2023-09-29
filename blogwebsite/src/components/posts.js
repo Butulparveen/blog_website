@@ -5,7 +5,7 @@ import "../styles/posts.css";
 function Posts() {
   return (
     <div>
-      <h1>Posts using Multiple Images</h1>
+      <h1 className="postsTitle">Posts using Multiple Images</h1>
       <div className="posts">
         <Post img="https://tse2.mm.bing.net/th?id=OIP.7uVYT4KcreJu09nemQb9uAHaEo&pid=Api&P=0&h=180" />
         <Post img="https://tse2.mm.bing.net/th?id=OIP.05dBuwm0_wf230DZIhMErQHaFM&pid=Api&P=0&h=180" />

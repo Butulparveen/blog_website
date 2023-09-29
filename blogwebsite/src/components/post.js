@@ -10,7 +10,9 @@ function Post({img}) {
         <div className='postInfo'>
             <div className='postCat'>
                 <span>
-                    <Link to='/posts?cat-Music'>
+               
+                    
+                    <Link to='/posts?cat-Music '>
                     Music
                     </Link><hr/>
                 </span>

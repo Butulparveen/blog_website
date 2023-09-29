@@ -1,0 +1,146 @@
+.login{
+    height: calc(100vh- 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+        rgba(211, 156, 116, 0.5),
+        rgba(23, 24, 23, 0.5)
+      ),
+      url("https://images.unsplash.com/photo-1581689942643-00b865be8e21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    position: absolute;
+    min-width: 90.5%;
+    min-height: 100%;
+    padding: 70px;
+    
+}
+
+.loginTitle{
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    margin-top: 80px;
+    color: brown;
+
+}
+.loginDesc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    margin-top: 40px;
+    
+    
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.loginForm>label{
+    margin: 10px;
+}
+.loginInput{
+    padding: 10px;
+    background-color:rgb(194, 184, 187);
+    border: none;
+    border-radius: 10px;
+    min-width: 440px;
+
+}
+
+.loginInput:focus{
+    outline:none;
+}
+
+.loginButton{
+      margin-top: 20px;
+    cursor: pointer;
+    background-color:rgb(180, 84, 108);
+    color: azure;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+.loginButton:hover{
+    background-color: chocolate;
+}
+
+.loginRegister{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:rgb(180, 84, 108);
+    color: azure;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-left: -2%;
+    min-width: 140px;
+}
+.loginRegister:hover{
+    background-color: chocolate;
+}
+
+.loginCheckbox{
+    margin-left: 10%;
+    width: 140px;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    padding: 10px;
+    float: left;
+
+
+}
+.loginCheck{
+    cursor: pointer;
+    
+
+}
+.loginRemeber{
+    margin-left: 1%;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+}
+.loginForgot{
+    margin-left: 40%;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+}
+
+.button{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:rgb(180, 84, 108);
+    color: azure;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+
+    /* margin-top: 20px;
+    position: absolute;
+    /* right: 20px; */
+    /* background-color: rgb(180, 84, 108);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: azure; */
+
+}
+
+.submitForm{
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
