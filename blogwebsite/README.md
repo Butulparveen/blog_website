@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+#In Blog-website the frontend is created with React technology.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
